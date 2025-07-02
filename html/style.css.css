@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f7f9fc;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007acc;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #007acc;
+}
+
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+  background: #e3f2fd;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.hero h3 {
+  font-size: 40px;
+  color: #007acc;
+  margin: 10px 0;
+}
+
+.hero h4 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 18px;
+  color: #000000;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #007acc;
+}
+
+section p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+}
+.resume-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #007acc;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #005b99;
+}
+#education {
+  padding: 40px 0;
+  color: #000000;
+}
+
+.edu-entry {
+  margin-bottom: 40px;
+}
+
+.edu-entry h3 {
+  font-size: 22px;
+  color: #000000;
+}
+
+.edu-entry p {
+  margin: 5px 0;
+  font-style: italic;
+  color: #000000;
+}
+
+.edu-entry .edu-date {
+  font-weight: bold;
+  color: #999;
+}
+
+.edu-entry ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #ddd;
+}
+#skills {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #0f172a;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skill-card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+
+.skill-card i {
+  font-size: 30px;
+  color: #38bdf8;
+  margin-bottom: 15px;
+}
+
+.skill-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #facc15;
+}
+
+.skill-card p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+
+ul, li {
+
+    color: #000000;
+    font-family: cursive;
+}
+
+.project-entry, h3,p{
+
+    font-family: cursive;
+}
+
+.profile-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /
+}
+
+<style>
+  .no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+  }
+</style>
+
+<ul class="no-bullets">
+  <li>This is a sentence without a bullet</li>
+</ul>
+
